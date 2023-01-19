@@ -1,8 +1,8 @@
 {
-  "name": "react-native-quiz-input",
+  "name": "@srivastavarnav/react-native-quiz-input",
   "version": "1.0.5",
   "description": "React Native Component to create individual character inputs for quiz-like interfaces, OTP screens etc.",
-  "homepage": "https://github.com/antoniocosentino/react-native-quiz-input",
+  "homepage": "https://github.com/srivastavarnav/react-native-quiz-input",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "keywords": [
@@ -15,7 +15,7 @@
     "quiz",
     "textinput"
   ],
-  "author": "Antonio Cosentino <hello@antoniocosentino.com> (https://antoniocosentino.com)",
+  "author": "Arnav",
   "license": "MIT",
   "files": [
     "lib",
@@ -76,5 +76,8 @@
     "@types/lodash.chunk": "^4.2.6",
     "lodash.chunk": "^4.2.0",
     "react-native-gesture-handler": "^1.10.3"
+  },
+  "publishConfig": {
+    "@srivastavarnav:registry": "https://npm.pkg.github.com"
   }
 }
