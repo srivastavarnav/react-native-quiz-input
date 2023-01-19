@@ -1,3 +1,19 @@
+# How to consume Github Package private registry with yarn?
+
+Create an .npmrc file in the same location as the package.json with this content.
+
+```
+registry=https://registry.yarnpkg.com/
+
+@<username>:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=<your auth token>
+always-auth=true
+```
+
+## How to get the token?
+
+https://github.com/settings/tokens
+
 # react-native-quiz-input
 ![Platforms]( https://raw.githubusercontent.com/antoniocosentino/react-native-quiz-input/main/assets/platforms-badge.svg )
 ![Unit tests]( https://github.com/antoniocosentino/react-native-quiz-input/actions/workflows/unit-tests.yml/badge.svg )
